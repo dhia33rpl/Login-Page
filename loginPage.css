@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+/*kotak user*/
+.login-container {
+  background-color: white;
+  padding: 20px; /* Menambah padding untuk memberi ruang di dalam kontainer */
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: -30px auto 10px auto; /* Naik ke atas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*buat avatar*/
+.avatar img {
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px; /* Mengurangi padding untuk mengangkat elemen */
+  margin: 5px 0; /* Mengurangi margin untuk mengangkat elemen */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px; /* Mengatur margin atas untuk tombol login */
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1a5ecc;
+}
+
+.forgot {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.forgot a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #888;
+}
